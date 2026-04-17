@@ -71,6 +71,3 @@ python testing.py
 
 ```
 
-## License
-
-MIT License
