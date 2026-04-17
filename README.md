@@ -1,39 +1,10 @@
+### TGRS 2025 Spatial–Frequency Domain Transformation for Infrared Small Target Detection -> [Paper](https://doi.org/10.1109/TGRS.2025.3589983)
 
-
-## Citation
-
-If you find this work useful, please cite the paper:
-
-```
-@article{liu2025spatial,
-  title={Spatial frequency domain transformation for infrared small target detection},
-  author={Liu, Y. and Tu, B. and Liu, B. and He, Y. and Li, J. and Plaza, A.},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2025},
-  publisher={IEEE}
-}
-```
-
-## Features
+## Dataset
 
 - Support for multiple datasets: NUAA-SIRST, NUDT-SIRST, IRSTD-1K, etc.
-
-## Requirements
-
-- Python 3.x
-- PyTorch
-- torchvision
-- numpy
-- scikit-image
-- matplotlib
-- einops
-- thop
-- tqdm
-
-
-## Dataset Preparation
-
-Place datasets in the `dataset/` directory with the following structure:
+- The dataset can be obtained from here: [Dataset](https://pan.baidu.com/s/15BHkNrdpFWruZkSl8S5iew?pwd=kbzy) 提取码: kbzy
+- Place datasets in the `dataset/` directory with the following structure:
 
 ```
 dataset/
@@ -48,6 +19,19 @@ dataset/
 └── IRSTD-1K/
     └── ...
 ```
+
+## Requirements
+
+- Python 3.x
+- PyTorch
+- torchvision
+- numpy
+- scikit-image
+- matplotlib
+- einops
+- thop
+- tqdm
+
 
 ## Training
 
@@ -69,5 +53,18 @@ Main parameters:
 python testing.py
 ```
 
-```
 
+
+## Citation
+
+If you find this work useful, please cite the paper:
+
+```
+@article{liu2025spatial,
+  title={Spatial frequency domain transformation for infrared small target detection},
+  author={Liu, Y. and Tu, B. and Liu, B. and He, Y. and Li, J. and Plaza, A.},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2025},
+  publisher={IEEE}
+}
+```
