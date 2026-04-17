@@ -1,0 +1,62 @@
+# Datasets
+dataset/
+NUAA-SIRST/
+NUDT-SIRST/
+IRSTD-1K/
+IRSTD-1k_/
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model checkpoints and logs
+*.pth
+*.pt
+*.pkl
+logs/
+checkpoints/
+runs/
+log/
+
+# OS files
+.DS_Store
+Thumbs.db

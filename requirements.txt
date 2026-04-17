@@ -1,0 +1,8 @@
+torch>=1.8.0
+torchvision>=0.9.0
+numpy>=1.19.0
+scikit-image>=0.18.0
+matplotlib>=3.3.0
+einops>=0.3.0
+thop>=0.0.31
+tqdm>=4.50.0
